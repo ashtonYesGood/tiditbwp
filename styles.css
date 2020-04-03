@@ -2,10 +2,12 @@ body{
     background-color: #9999FF;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    height: 90vh;
 }
 
 #firstpagediv{
     text-align: center;
+    margin-top: 25vh;
     background-color: #FFFFFF; /* Green */
     border: none;
     color: #000000;
