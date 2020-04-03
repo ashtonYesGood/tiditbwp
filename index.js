@@ -1,7 +1,15 @@
-//get user input
+//store elements in variables
+learnmorebutton = document.getElementById('learnmorebutton');
+textbox1 = document.getElementById('num1');
+textbox2 = document.getElementById('num2');
+resultbox = document.getElementById('result');
 
-num1 = prompt("Enter your first number");
-num2 = prompt("Enter your second number");
+//do the math
 
-result = parseInt(num1) + parseInt(num2);
-alert(result);
+function doMath() {
+    
+    resultbox.innerHTML = (parseInt(textbox1.value) + parseInt(textbox2.value));
+
+    result = num1 + num2;
+    resultbox.innerhtml = result;
+}
